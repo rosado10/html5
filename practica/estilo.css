@@ -1,0 +1,221 @@
+#cabecera{ 
+    background-color: #EEEEEE;
+    padding: 10px;
+    color: #539cdc;
+}
+
+#menu {
+    background-color: #337AB7;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+#menu li {
+    margin: 0 20px;
+}
+
+a.item_menu {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+   
+}
+
+a.item_menu:hover{
+    background-color: #539cdc;
+    color: white; 
+    border-radius: 5px 5px 0 0;
+}
+
+#parrafo1 {
+    color: brown;
+    font-size: bold;
+    text-align: right;
+}
+
+#parrafo2 {
+    color: green;
+    font-size: light;
+    text-align: center;
+}
+
+#parrafo3 {
+    color: blue;
+    font-size: uppercase;
+    text-align: justify;
+}
+
+.ClaseParrafos {
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabecera{
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+#footer {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+#deg1{
+    height: 500px;
+    background-image: linear-gradient(blue, rgb(171, 220,239));
+}
+#deg2{
+    height: 200px;
+    background-image: linear-gradient(rgba(123, 0, 255, 0.925),white,green);
+}
+@font-face{
+    font-family: 'Instagram';
+    src: url('Instagram (1).ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+#deg3{
+    font-family: Instagram; 
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background: linear-gradient(to right, #6e03c6, #AF289D, #E8223C, #F6BA50); 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+#img1{
+    border: 5px solid red;
+    width: 30% ;
+    
+}
+#img2{
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid gray;
+
+}
+#img3{
+    width: 30%;
+    opacity: 0.5;
+}
+#img3:hover{
+    opacity: 1;
+    width: 32%;
+}
+#fondo{
+    background-color: blueviolet;
+    height: 1500px;
+    width: 100%;
+
+    background-image: url(imagen.jpg);
+    /*background-repeat: no-repeat;*/
+    background-size: cover ;
+    opacity: 0.3;
+   /* background-attachment: fixed;*/
+    z-index: -1;
+    position: absolute;
+
+}
+#transicion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s;
+}
+#transicion:hover{
+    width: 200px;
+}
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo1{
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+#animacion2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ejemplo2;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo2{
+    0%{left: 0px; top:0px;}
+    25%{left: 200px; top:0px;}
+    50%{left: 200px; top:200px;}
+    75%{left: 0px; top:200px;}
+    100%{left: 0px; top:0px;}
+}
+.caja_de_texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#boton_borrar{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+#boton_enviar{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+#boton_enviar:hover{
+    background-color: rgb(3, 174,3);
+}
+#boton_borrar:hover{
+    background-color: rgb(255, 94,94);
+}
+.contenedor{
+    display: flex;
+}
+.div_izquierda{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(0, 255, 26, 0.463);
+    margin-right: 10px;
+}
+.div_derecha{
+    width: 50%;
+    background-color: aqua;
+}
